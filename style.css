@@ -1,0 +1,180 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #d9e0e2;
+}
+#wrpr {
+	width: 960px;
+	margin: 0 auto;
+}
+#header {
+	background color: #ff4c4c;
+	background-image: url("img/3.jpg");
+	width: 960px;
+	height: 200px;
+	border-bottom: 3px solid #CDDC39;
+
+	
+
+}
+#header h2 {
+	color: #FFF;
+	font-family: roboto;
+	padding-top: 15px;
+	padding-left: 15px;
+	
+}
+#header p {
+	color: #FFF;
+	font-family: lato;
+	padding-left: 15px;
+}
+#nav {
+	background: #FFF;
+	border-bottom: 3px solid #CDDC39;
+	height: 38px;
+	
+}
+#nav ul {
+	background: #FFF;
+	list-style-type: none;
+	z-index: 999;
+}
+#nav ul li {
+	float: left;
+	border-right: 1px solid #CDDC39;
+}
+#nav ul li:last-child {
+	border: none;
+}
+#nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-family: roboto;
+	-webkit-transition: .2s all ease;
+	   -moz-transition: .2s all ease;
+	    -ms-transition: .2s all ease;
+	     -o-transition: .2s all ease;
+	        transition: .2s all ease;
+}
+
+#nav ul li a:hover {
+	color: #CDDC39;
+}
+#nav ul li {
+	position: relative;
+}
+#nav ul li ul {
+	position: absolute; left: -99999px;
+}
+#nav ul li:hover ul {
+	left: 0;
+}
+#nav ul li ul li {
+	float: none;
+	border-right: none;
+	border-bottom: 1px solid #CDDC39;
+	width: 150px;
+}
+#main_content {
+	background: #FFF;
+	padding: 15px;
+	overflow: hidden;
+	
+}
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+	
+}
+#content article {
+	margin-right: 15px;
+	float: left;
+
+}
+#content h2{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+}
+
+#pimg {
+	margin-top: 10px;
+	
+}
+#pimg img {
+	width: 75px;
+	height: 75px;
+	background: #FFF;
+	border: 1px solid #ddd;
+	padding: 3px;
+	margin-right: 10px;
+	float: left;
+}
+#pimg p {
+	width: 500px;
+	float: left;
+	font-family: roboto;
+	font-size: 14.8px;
+	text-align: justify;
+}
+#aside_bar {
+	width: 200px;
+	float: left;
+}
+#aside_bar aside h2 {
+	color:#6B710E;
+	font-family:arial;
+	margin-left: 20px;
+}
+#aside_bar aside ul {
+	list-style-type: none;
+	margin-top: 5px;
+	margin-left: 20px;
+	
+}
+#aside_bar aside ul li {
+	margin-bottom: 3px;
+	border-bottom: 1px solid #ddd;
+}
+#aside_bar aside ul li a {
+	text-decoration: none;
+	color: black;
+	font-family: roboto;
+	display: block;
+	font-size: 14.8px;
+	margin-left: 10px;
+	
+}
+#aside_bar aside ul li:last-child {
+	border: none;
+}
+
+#footer {
+	width: 960px;
+	background: #272727;
+}
+#footer p {
+	padding: 10px;
+	text-align: center;
+	font-family: roboto;
+	color: #FFF;
+}
+#arti {
+	margin-bottom: 25px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+aside {
+	float: left;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
