@@ -127,4 +127,38 @@ $(function () {
                 backtotop.fadeOut();
             }
         });
+
+
+
+
+
+emailjs.init("nJG30w7PTlG6_J7XR");
+
+document.getElementById("contact-form")
+.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_umb7b3q",
+        "template_4s217of",
+        this
+    )
+    .then(function(){
+
+        alert("Message Sent Successfully!");
+
+    }, function(error){
+
+        alert("Failed to send message!");
+
+    });
+
+});
+
+
+
+
+
+        
     });
