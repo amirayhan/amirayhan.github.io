@@ -147,7 +147,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
   btn.disabled = true;
 
   emailjs.sendForm(
-    "service_umb7b3q",
+    "service_xwkayt5",
     "template_4s217of",
     this
   ).then(function () {
